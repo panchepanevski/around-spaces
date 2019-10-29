@@ -1,25 +1,58 @@
+/* VARIABLES */
+
 body {
   height: 100vh;
   width: 100vw;
   padding: 0;
   margin: 0;
-  font-family: "Staatliches", cursive;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.card {
-  width: 300px;
-  height: 300px;
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.nav {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(53, 181, 181);
+  display: flex;
+  box-shadow: 0 9px 9px -6px rgb(36, 114, 114);
+}
+.nav__items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__btn {
+  width: 60px;
+  height: 60px;
+  margin: 25px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(53, 181, 181);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 1px 9px 9px -6px rgb(36, 114, 114);
+}
+
+.nav__btn:hover {
+  background-color: #ffffff8a;
+}
+
+.nav__btn--hovered {
+  background-color: #ffffff8a;
+  color: rgb(53, 181, 181) !important;
+}
+
+.nav__btn:focus {
+  outline: 0;
+}
+
+.nav__btn > svg {
+  fill: rgb(36, 114, 114);
+}
+
+.nav__btn > svg:hover {
+  fill: rgb(53, 181, 181);
 }

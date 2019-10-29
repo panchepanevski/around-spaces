@@ -4,7 +4,8 @@
   "description": "CSS version around spaces",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel build index.html"
+    "dev": "parcel *.html",
+    "build": "parcel build *.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/panchepanevski/around-spaces#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.1"
   }
 }
