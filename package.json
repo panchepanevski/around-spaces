@@ -1,0 +1,22 @@
+{
+  "name": "around-spaces-css",
+  "version": "1.0.0",
+  "description": "CSS version around spaces",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panchepanevski/around-spaces.git"
+  },
+  "author": "Panche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panchepanevski/around-spaces/issues"
+  },
+  "homepage": "https://github.com/panchepanevski/around-spaces#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
