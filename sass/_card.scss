@@ -1,7 +1,7 @@
 .card {
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 450px;
   height: 200px;
   margin: 30px auto;
   background-color: $color-secondary;
@@ -18,7 +18,9 @@
     height: 100%;
     object-fit: cover;
     object-position: top center;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   }
 
   &__container--content {
@@ -32,13 +34,11 @@
   &__container--icons {
     display: flex;
     align-items: center;
-  }
-
-  &__container--icons > i {
+    padding-left: 5px;
     fill: $color-primary;
   }
 }
 
 .card__container--icons-price > svg {
-  fill: $color-primary;
+  fill: $color-primary-2;
 }
