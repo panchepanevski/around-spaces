@@ -1,0 +1,52 @@
+.nav {
+  height: 150px;
+  width: 100%;
+  background-color: $color-primary;
+  display: flex;
+  box-shadow: 0 9px 9px -6px $color-secondary;
+}
+.nav__items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// TOP LIST WITH ICONS
+
+.top {
+  height: 30px;
+  width: 100%;
+  background-color: $color-secondary;
+  display: flex;
+  box-shadow: 0 9px 9px -6px $color-tertiary;
+  justify-content: center;
+}
+
+.top-items {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top-icons {
+  margin: 0 14px;
+  display: inline-block;
+}
+.top-icons:last-child {
+  padding-right: 40px;
+}
+
+.top-icons > svg {
+  fill: $color-tertiary;
+}
+
+.top-icons-left {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px;
+  color: $color-tertiary;
+}

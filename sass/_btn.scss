@@ -1,0 +1,33 @@
+.nav__btn {
+  width: 60px;
+  height: 60px;
+  margin: 25px;
+  background-color: $color-tertiary;
+  border: none;
+  color: $color-primary;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 1px 9px 9px -6px $color-secondary;
+
+  &:hover,
+  &:active {
+    background-color: #ffffff8a;
+  }
+}
+.nav__btn--hovered {
+  background-color: #ffffff8a;
+}
+
+.nav__btn:focus {
+  outline: 0;
+}
+
+.nav__btn > svg {
+  fill: $color-secondary;
+}
+
+// .nav__btn > svg:hover {
+//   fill: rgb(53, 181, 181);
+// }
