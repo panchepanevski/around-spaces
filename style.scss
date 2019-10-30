@@ -34,13 +34,12 @@ body {
   display: inline-block;
   border-radius: 10px;
   box-shadow: 1px 9px 9px -6px rgb(36, 114, 114);
-}
 
-&:hover,
-&:active {
-  background-color: #ffffff8a;
+  &:hover,
+  &:active {
+    background-color: #ffffff8a;
+  }
 }
-
 .nav__btn--hovered {
   background-color: #ffffff8a;
 }
