@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 200px;
+  margin: 30px auto;
+  background-color: $color-secondary;
+  box-shadow: 1px 9px 9px -6px rgb(136, 136, 136);
+  border-radius: 10px;
+
+  &__container--img {
+    width: 40%;
+    object-fit: cover;
+    object-position: top center;
+  }
+  &__container--img > img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px;
+  }
+
+  &__container--content {
+    color: azure;
+    width: 70%;
+  }
+  &__container--content > button {
+    margin-left: 9px;
+  }
+
+  &__container--icons {
+    display: flex;
+    align-items: center;
+  }
+
+  &__container--icons > i {
+    fill: $color-primary;
+  }
+}
+
+.card__container--icons-price > svg {
+  fill: $color-primary;
+}
