@@ -9,3 +9,9 @@ Install dependencies
 ```
 npm instal
 ```
+
+Start development stage
+
+## Autor
+
+Panche Panevski
