@@ -31,3 +31,68 @@
 // .nav__btn > svg:hover {
 //   fill: rgb(53, 181, 181);
 // }
+
+// .start-page-btn {
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+.body__btn > a {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.body__btn > a span {
+  position: relative;
+  z-index: 2;
+}
+
+.body__btn > a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 20px;
+}
+
+@keyframes gradient_bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.body__btn > a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.body__btn > a:hover:after {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.body__business > a {
+  text-decoration: none;
+}
